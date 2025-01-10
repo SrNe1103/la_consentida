@@ -10,8 +10,9 @@ h1{
     background-color: #ffffff;
     border-radius: 30px;
     align-content: center;
+    font-family: Birthstone, sans-serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 5em;
     margin: 20px;
 }
 main{
@@ -20,7 +21,17 @@ main{
     min-height: 1000px;
 }
 
+#content{
+    padding: 20px;
+    display: grid;
+}
+
 main h2{
     padding: 10px;
-    text-decoration: dashed;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+ol{
+    font-size: 1.5em;
 }
